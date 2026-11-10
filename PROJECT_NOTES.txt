@@ -1,0 +1,15 @@
+PROJECT: PETROL COST ESTIMATOR FOR DRIVERS
+
+Main file: app.py
+Language: Python
+Run command: python app.py
+
+Core formula:
+1. Fuel required (litres) = Distance (KM) / Mileage (KM per litre)
+2. Total petrol cost = Fuel required x Petrol price per litre
+3. Cost per KM = Total cost / Distance
+
+The traffic and AC reductions are sample assumptions and can be changed in
+app.py. For accurate real-world estimates, use measured vehicle mileage.
+The optional ML demonstration uses generated sample data and should not be
+described as a model trained on real driver data.
